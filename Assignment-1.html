@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="TF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All HTML Tags and Attributes</title>
+    <script type="module">
+        import { add } from './math.js';
+        console.log(add(2, 3)); // Output: 5
+    </script>
+
+</head>
+<body>
+
+    <!--If Only Js was a bystander..<noscript>Your browser does not support JavaScript! Could've worked</noscript>-->
+
+    <header>
+        <h1>Welcome to My Website</h1>
+    <h1>This is a Heading 1</h1>
+    <p>This is a paragraph.</p>
+    <p>The <dfn title="Hyper Text Markup Language">HTML</dfn> is the publishing language of the World Wide Web.</p>
+    <p>This is an <em>important point</em> to consider.</p>
+    <a href="https://example.com" title="Visit Example">Link to Example</a>
+    <img src="image.jpg" alt="An Image" width="200" height="150">
+            <button id="button1">Button 1</button>
+            <button id="button2">Button 2</button>
+   
+    <h1>To Do</h1>
+    <ul type="square">
+     <li>Buy some cookies</li>
+        <li><ins>Do some cleaning</ins></li>
+        <li><del>Relaxation time</del></li>
+         <li><ins>Visit a doctor</ins></li>
+    </ul>
+
+    <ol type="A">
+        <li>Apple</li>
+        <li>Ball</li>
+    </ol>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd> Stands for hypertext markup language</dd>
+        <dt>CSS</dt>
+        <dd>Stands For cascading Style Sheet</dd>
+    </dl>
+
+</header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am a passionate web developer with a love for coding.</p>
+    </section>
+
+
+    <table border="1">
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+        </tr>
+    </table>
+
+    <p><q>We'll start the form now</q>But before let's test Subscript and Superscript</p>
+    <p>The chemical formula of Water is: H<sub>2</sub>O</p>
+    <p>The equation of mass-energy equivalence is: E=mc<sup>2</sup></p>
+     
+    <form action="/submit" method="post">
+        <input type="text" name="username" placeholder="Username"><br>
+        <input type="password" name="password" placeholder="Password"><br>
+        <input type="email" name="email" placeholder="Email"><br>
+        <input type="tel" name="phone" placeholder="Phone"><br>
+        <input type="number" name="quantity" min="1" max="10" placeholder="Quantity"><br>
+        <input type="url" name="website" placeholder="Website"><br>
+        <input type="date" name="dob"><br>
+        <input type="time" name="appointment"><br>
+        <input type="color" name="color"><br>
+        <input type="range" name="slider" min="0" max="100"><br>
+        <input type="file" name="file"><br>
+        <input type="checkbox" name="subscribe" value="yes"> Subscribe<br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br>
+        <textarea name="comments" rows="4" cols="50" placeholder="Enter your comments here."></textarea><br>
+        <select name="country">
+            <option value="us">United States</option>
+            <option value="ca">Canada</option>
+        </select><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <iframe src="https://example.com" width="800" height="600" frameborder="0"></iframe>
+
+    <div id="container" style="width: 500px; height: 300px; background-color: #f0f0f0;">Div content</div>
+
+    <img src="#" usemap="#shapes" alt="<Area> With <Map>">
+    <map name="shapes">
+        <area shape="circle" coords="40,40,40" href="#" alt="Circle">
+        <area shape="poly" coords="148,2,104,80,193,80" href="#" alt="Triangle">
+        <area shape="rect" coords="226,2,323,80" href="#" alt="Rectangle">
+        <area shape="poly" coords="392,2,352,32,366,80,418,80,432,32" href="#" alt="Pentagon">
+    </map>
+
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+
+    <video controls width="400" height="300">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000;"></canvas>
+
+    <p>My Hobbies</p>
+       <ul>
+         <li><data value="204">dancing</data></li>
+         <li><data value="205">singing</data></li>
+         <li><data value="206">public speaking</data></li>
+        </ul>
+
+    <p dir="ltr">This arabic word <bdi>ARABIC_PLACEHOLDER</bdi> is automatically displayed right-to-left.</p>
+
+    <blockquote cite="https://www.example.com/quote">This is a blockquote.</blockquote>
+
+    <abbr title="World Health Organization">WHO</abbr>
+
+    <article>
+        <h2>Another Article Title</h2>
+        <p>This is another article's content.</p>
+    </article>
+
+    <code>This is inline code.</code>
+
+    <p><u>There are times when things need a line down under.</u></p>
+    <p>Please, input "<kbd>Yes</kbd>" or "<kbd>No</kbd>"</p>
+    <p>Here is some <i>italic</i> text.</p>
+
+    <pre>
+        This is preformatted text.
+        It preserves whitespace.
+    </pre>
+
+    <mark>This is highlighted text.</mark>
+
+ 
+    <output for="rangeInput">Current value: 50</output>
+    <input type="range" id="rangeInput" min="0" max="100" value="50">
+
+
+    <time datetime="2023-08-26">August 26, 2023</time>
+    <p>
+     <strong>This Line Is strong,well not as much as Thor</strong>
+    </p>
+<picture>
+        <source srcset="image-large.jpg" media="(min-width: 1200px)">
+        <source srcset="image-medium.jpg" media="(min-width: 768px)">
+        <img src="image-small.jpg" alt="Responsive Image">
+    </picture>
+
+    <ruby>
+        漢 <rt>Kan</rt>
+        字 <rt>ji</rt>
+    </ruby>
+
+    <details>
+        <summary>Click to show details</summary>
+        More information here.
+    </details>
+<hr>
+<p>The XML<wbr>Http<wbr>Request object is the key to AJAX.</p>
+<hr>
+
+   <dialog open>
+        <p>This is a dialog box.</p>
+        <button>Close</button>
+    </dialog>
+
+    <meter value="75" min="0" max="100">75%</meter>
+
+    <progress value="50" max="100">50%</progress>
+
+    <datalist id="browsers">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Edge">
+    </datalist>
+
+    <datalist id="colors">
+        <option value="Red">
+        <option value="Green">
+        <option value="Blue">
+    </datalist>
+
+    <figure>
+        <img src="another-image.jpg" alt="Another Image" width="300" height="200">
+        <figcaption>Another example image</figcaption>
+    </figure>
+
+    <aside>
+        <p>This is an aside section with additional information.</p>
+    </aside>
+
+    <main>
+        <h1>Main Content</h1>
+        <p>This is the main content of the page.</p>
+    </main>
+
+    <p>A simple equation to test var tag: <var>x</var> = <var>y</var> + 2 </p>
+
+    <svg viewBox="0 0 200 200" width="400"  height="400">
+        <!-- Face -->
+        <circle cx="100" cy="100" fill="yellow" r="78" stroke="black" stroke-width="3" />
+        <g>
+            <!-- Left eye -->
+            <circle cx="65" cy="82" r="12" />
+            <!-- Right Eye -->
+            <circle cx="130" cy="82" r="12" />
+        </g>
+        <!-- Smile -->
+        <path d="M65 115 a1,0.8 0 0,0 65,0" fill="none" stroke="black" stroke-width="3" />
+    </svg>
+
+    <nav>
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        <address>
+            <p><a href="https://www.w3.org/Consortium/contact-mit">MIT</a></p>
+        </address>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+    </fieldset>
+</body>
+</html>
